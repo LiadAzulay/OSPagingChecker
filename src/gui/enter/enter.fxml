@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="enter_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" stylesheets="@enter.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.enter.DrawerEnter">
+   <children>
+      <JFXDrawer fx:id="drawerEnter" defaultDrawerSize="190.0" layoutX="-11.0" prefHeight="450.0" prefWidth="145.0" />
+      <JFXHamburger fx:id="hamburgerEnter" layoutX="533.0" layoutY="27.0" prefHeight="29.0" prefWidth="42.0" stylesheets="@enter.css" />
+      <Label layoutX="147.0" layoutY="11.0" prefHeight="62.0" prefWidth="349.0" text="Welcome to OSPagingChecker">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="59.0" prefHeight="29.0" prefWidth="342.0" text="In this application you can see if your right.">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="entervbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="145.0" stylesheets="@drawer.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.all.DrawerController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnenter" accessibleText="enter" onAction="#goEnter" prefHeight="44.0" prefWidth="146.0" text="Enter" />
+      <JFXButton fx:id="btnpageReplacement" accessibleText="page_replacement" onAction="#goPageReplacement" prefHeight="44.0" prefWidth="146.0" text="Page Replacement" />
+      <JFXButton fx:id="btncpuScheduling" accessibleText="cpu_scheduling" onAction="#goCpuScheduling" prefHeight="44.0" prefWidth="145.0" text="Cpu Scheduling" />
+      <JFXButton fx:id="btndiskScheduling" accessibleText="disk_scheduling " onAction="#goDiskScheduling" prefHeight="44.0" prefWidth="146.0" text="Disk Scheduling " />
+      <JFXButton fx:id="exit" accessibleText="exit" onAction="#exitAll" prefHeight="37.0" prefWidth="147.0" text="Exit" />
+   </children>
+</VBox>
